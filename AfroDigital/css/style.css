@@ -348,6 +348,22 @@ h6,
     opacity: 1;
 }
 
+.task-item .service-icon {
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.task-item .service-icon i {
+    transform: rotate(45deg);
+}
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-dots {
