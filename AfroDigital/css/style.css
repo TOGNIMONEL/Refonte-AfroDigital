@@ -185,7 +185,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #FFFFFF;
+        background: #fefefe;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
@@ -348,6 +348,22 @@ h6,
     opacity: 1;
 }
 
+.task-item .service-icon {
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.task-item .service-icon i {
+    transform: rotate(45deg);
+}
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-dots {
@@ -383,7 +399,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: #FFFFFF !important;
+    background: #dfdfdf !important;
     box-shadow: 0 0 30px #DDDDDD;
 }
 
@@ -413,7 +429,7 @@ h6,
 }
 
 .team-item:hover {
-    box-shadow: 0 0 30px #DDDDDD;
+    box-shadow: 0 0 30px #b63636;
 }
 
 .team-item:hover .team-social {
