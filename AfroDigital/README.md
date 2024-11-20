@@ -12,7 +12,7 @@ sa performance et son expérience utilisateur. Le but est de rendre le site plus
 
 ## Installation 
 
-1. Clonez ce dépôt Github sur votre machine en locale: "ssh"
+1. Clonez ce dépôt Github sur votre machine en locale: "git@github.com:TOGNIMONEL/Refonte-AfroDigital.git"
 2. Lancez la page principale "about.html"
 
 # Fonctionnalités
